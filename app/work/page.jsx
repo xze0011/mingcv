@@ -33,7 +33,7 @@ const projects = [
   },
   {
     num: "02",
-    category: "fullstack",
+    category: "Fullstack",
     title: "project 2",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate magnam modi.",
