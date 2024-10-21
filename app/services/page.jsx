@@ -6,32 +6,29 @@ import Link from "next/link";
 const services = [
   {
     num: "01",
-    title: "Web Development",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque tenetur.",
-    href: "",
+    title: "Frontend",
+    description: "React.js, Next.js, Javascript, TypeScript, TailwindCSS etc.",
+    href: ""
   },
   {
     num: "02",
-    title: "UI/UX Design",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque tenetur.",
-    href: "",
+    title: "Backend",
+    description: "Node.js, Express.js, MongoDB, SQL, RESTful API etc.",
+    href: ""
   },
   {
     num: "03",
-    title: "Logo Design",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque tenetur.",
-    href: "",
+    title: "DevOps",
+    description: "Docker, CI/CD, Azure, AWS, Vercel, Netlify etc.",
+    href: ""
   },
   {
     num: "04",
-    title: "SEO",
+    title: "Soft Skills",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque tenetur.",
-    href: "",
-  },
+      "Problem-oriented, Teamwork, Agile, Communication, Time Management etc.",
+    href: ""
+  }
 ];
 
 import { motion } from "framer-motion";
@@ -44,7 +41,7 @@ const Services = () => {
           initial={{ opacity: 0 }}
           animate={{
             opacity: 1,
-            transition: { delay: 2.4, duration: 0.4, ease: "easeIn" },
+            transition: { delay: 2.4, duration: 0.4, ease: "easeIn" }
           }}
           className="grid grid-cols-1 md:grid-cols-2 gap-[60px]"
         >

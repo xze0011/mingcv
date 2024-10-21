@@ -15,7 +15,7 @@ import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
 const about = {
   title: "About me",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quibusdam, sunt explicabo inventore.",
+    "A person with love and courage, always ready to embrace the next challenge, willing to take risks and contribute kindness to make the world a better place.",
   info: [
     {
       fieldName: "Name",

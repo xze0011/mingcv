@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { FiDownload } from "react-icons/fi";
+import Link from "next/link";
 
 // components
 import Social from "@/components/Social";
@@ -18,21 +19,34 @@ const Home = () => {
               Hello I am <br /> <span className="text-accent">Ming Zeng</span>
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80">
-              An experienced React, Next.js, and Node.js fullstack developer
-              with deep expertise in databases (SQL, Mongo, Cassandra), and
-              strong data analysis skills using Power BI, constantly learning
-              and evolving.
+              A proficient React, Next.js, and Node.js developer, experienced
+              with popular databases (SQL, MongoDB, etc.), CICD pipelines,
+              Docker, Azure Cloud, and AWS Cloud.
             </p>
-            {/* btn and socials */}
+            <p className="max-w-[500px] mb-9 text-white/80">
+              A lifelong learner, regularly publishing weekly book reviews,
+              sharing technical insights, and reflecting on personal growth and
+              life experiences.
+            </p>
+            <p className="max-w-[500px] mb-9 text-white/80">
+              Most importantly, a person with love and courage, always ready to
+              embrace the next challenge, willing to take risks and contribute
+              kindness to make the world a better place.
+            </p>
+
             <div className="flex flex-col xl:flex-row items-center gap-8">
-              <Button
-                variant="outline"
-                size="lg"
-                className="uppercase flex items-center gap-2"
-              >
-                <span>Download CV</span>
-                <FiDownload className="text-xl" />
-              </Button>
+              <Link href="/Xiangming Zeng CV.pdf" passHref legacyBehavior>
+                <a target="_blank" rel="noopener noreferrer">
+                  <Button
+                    variant="outline"
+                    size="lg"
+                    className="uppercase flex items-center gap-2"
+                  >
+                    <span>Download CV</span>
+                    <FiDownload className="text-xl" />
+                  </Button>
+                </a>
+              </Link>
               <div className="mb-8 xl:mb-0">
                 <Social
                   containerStyles="flex gap-6"
