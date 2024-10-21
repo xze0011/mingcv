@@ -44,8 +44,7 @@ const about = {
 const experience = {
   icon: "/assets/resume/badge.svg",
   title: "My experience",
-  description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quibusdam, sunt explicabo inventore.",
+  description: "",
   items: [
     {
       company: "Arden Street Labs",
@@ -79,12 +78,11 @@ const experience = {
 const education = {
   icon: "/assets/resume/cap.svg",
   title: "My education",
-  description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quibusdam, sunt explicabo inventore.",
+  description: "",
   items: [
     {
       institution: "Monash University",
-      degree: "Diploma in Graphic Design",
+      degree: "Master of Information Technology",
       duration: "2019 - 2021"
     },
     {
@@ -98,8 +96,7 @@ const education = {
 // skills data
 const skills = {
   title: "My skills",
-  description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quibusdam, sunt explicabo inventore.",
+  description: "",
   skillList: [
     {
       icon: <FaHtml5 />,
