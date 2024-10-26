@@ -8,27 +8,27 @@ const services = [
     num: "01",
     title: "Frontend",
     description: "React.js, Next.js, Javascript, TypeScript, TailwindCSS etc.",
-    href: ""
+    href: "",
   },
   {
     num: "02",
     title: "Backend",
-    description: "Node.js, Express.js, MongoDB, SQL, RESTful API etc.",
-    href: ""
+    description: "Node.js, .Net, Express.js, MongoDB, SQL, RESTful API etc.",
+    href: "",
   },
   {
     num: "03",
     title: "DevOps",
     description: "Docker, CI/CD, Azure, AWS, Vercel, Netlify etc.",
-    href: ""
+    href: "",
   },
   {
     num: "04",
     title: "Soft Skills",
     description:
-      "Problem-oriented, Teamwork, Agile, Communication, Time Management etc.",
-    href: ""
-  }
+      "Agile Development, Problem-oriented, Teamwork, Time Management etc.",
+    href: "",
+  },
 ];
 
 import { motion } from "framer-motion";
@@ -41,7 +41,7 @@ const Services = () => {
           initial={{ opacity: 0 }}
           animate={{
             opacity: 1,
-            transition: { delay: 2.4, duration: 0.4, ease: "easeIn" }
+            transition: { delay: 2.4, duration: 0.4, ease: "easeIn" },
           }}
           className="grid grid-cols-1 md:grid-cols-2 gap-[60px]"
         >

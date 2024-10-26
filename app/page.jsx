@@ -19,13 +19,14 @@ const Home = () => {
               Hello I am <br /> <span className="text-accent">Ming Zeng</span>
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80">
-              A proficient React, Next.js, and Node.js developer, experienced
-              with popular databases (SQL, MongoDB, etc.), CICD pipelines,
-              Docker, Azure Cloud, and AWS Cloud.
+              A proficient React, Next.js, Node.js and .Net developer,
+              experienced with SQL, MongoDB, CICD pipelines, Docker, Azure and
+              AWS Cloud. with popular databases (SQL, MongoDB, etc.), CICD
+              pipelines, Docker, Azure Cloud, and AWS Cloud.
             </p>
             <p className="max-w-[500px] mb-9 text-white/80">
-              A lifelong learner, regularly publishing weekly book reviews,
-              sharing technical insights, and reflecting on personal growth and
+              A lifelong learner, regularly sharing weekly book reviews
+              (https://medium.com/@xzeng0011) on personal growth, psychology and
               life experiences.
             </p>
             <p className="max-w-[500px] mb-9 text-white/80">
@@ -35,8 +36,15 @@ const Home = () => {
             </p>
 
             <div className="flex flex-col xl:flex-row items-center gap-8">
-              <Link href="/Xiangming Zeng CV.pdf" passHref legacyBehavior>
-                <a target="_blank" rel="noopener noreferrer">
+              <Link
+                href="/Xiangming Zeng CV.pdf"
+                passHref
+                legacyBehavior
+              >
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <Button
                     variant="outline"
                     size="lg"
