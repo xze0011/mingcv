@@ -21,8 +21,7 @@ const Home = () => {
             <p className="max-w-[500px] mb-9 text-white/80">
               A proficient React, Next.js, Node.js and .Net developer,
               experienced with SQL, MongoDB, CICD pipelines, Docker, Azure and
-              AWS Cloud. with popular databases (SQL, MongoDB, etc.), CICD
-              pipelines, Docker, Azure Cloud, and AWS Cloud.
+              AWS Cloud.
             </p>
             <p className="max-w-[500px] mb-9 text-white/80">
               A lifelong learner, regularly sharing weekly book reviews
