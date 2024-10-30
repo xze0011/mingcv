@@ -6,7 +6,7 @@ const socials = [
   { icon: <FaGithub />, path: "https://github.com/xze0011?tab=repositories" },
   {
     icon: <FaLinkedinIn />,
-    path: "https://www.linkedin.com/in/xiangming-zeng-732b521a4/"
+    path: "https://www.linkedin.com/in/zephyr-xiangming-zeng-732b521a4/"
   }
 ];
 
