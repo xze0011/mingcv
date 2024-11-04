@@ -16,7 +16,7 @@ const Home = () => {
           <div className="text-center xl:text-left order-2 xl:order-none">
             <span className="text-xl">Fullstack Software Engineer</span>
             <h1 className="h1 mb-6">
-              Hello I am <br /> <span className="text-accent">Ming Zeng</span>
+              Hello I am <br /> <span className="text-accent">Zephyr Zeng</span>
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80">
               A proficient React, Next.js, Node.js and .Net fullstack software

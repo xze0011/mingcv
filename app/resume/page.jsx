@@ -6,7 +6,7 @@ import {
   FaJs,
   FaReact,
   FaFigma,
-  FaNodeJs
+  FaNodeJs,
 } from "react-icons/fa";
 
 import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
@@ -19,25 +19,25 @@ const about = {
   info: [
     {
       fieldName: "Name",
-      fieldValue: "Ming Zeng"
+      fieldValue: "Zephyr Zeng",
     },
     {
       fieldName: "Phone",
-      fieldValue: "0424092560"
+      fieldValue: "0424092560",
     },
     {
       fieldName: "Experience",
-      fieldValue: "5+ Years"
+      fieldValue: "5+ Years",
     },
     {
       fieldName: "Email",
-      fieldValue: "xzeng0011@gmail.com"
+      fieldValue: "xzeng0011@gmail.com",
     },
     {
       fieldName: "Languages",
-      fieldValue: "English, Mandarin"
-    }
-  ]
+      fieldValue: "English, Mandarin",
+    },
+  ],
 };
 
 // experience data
@@ -49,29 +49,29 @@ const experience = {
     {
       company: "Arden Street Labs",
       position: "Fullstack Developer",
-      duration: "2021 - Present"
+      duration: "2021 - Present",
     },
     {
       company: "Envision IT",
       position: "Frontend Web Developer",
-      duration: "Spring 2021"
+      duration: "Spring 2021",
     },
     {
       company: "Edway Apps Melbourne",
       position: "Frontend Developer",
-      duration: "Spring 2021"
+      duration: "Spring 2021",
     },
     {
       company: "KPMG",
       position: "Assistant Data Analyst",
-      duration: "Winter 2020"
+      duration: "Winter 2020",
     },
     {
       company: "Bank of Jiangsu",
       position: "Teller",
-      duration: "Summer 2018"
-    }
-  ]
+      duration: "Summer 2018",
+    },
+  ],
 };
 
 // education data
@@ -83,14 +83,14 @@ const education = {
     {
       institution: "Monash University",
       degree: "Master of Information Technology",
-      duration: "2019 - 2021"
+      duration: "2019 - 2021",
     },
     {
       institution: "Anhui Uni of Technology",
       degree: "Bachelor in Accounting and Finance",
-      duration: "2014 - 2019"
-    }
-  ]
+      duration: "2014 - 2019",
+    },
+  ],
 };
 
 // skills data
@@ -100,38 +100,38 @@ const skills = {
   skillList: [
     {
       icon: <FaHtml5 />,
-      name: "html 5"
+      name: "html 5",
     },
     {
       icon: <FaCss3 />,
-      name: "css 3"
+      name: "css 3",
     },
     {
       icon: <FaJs />,
-      name: "javascript"
+      name: "javascript",
     },
     {
       icon: <FaReact />,
-      name: "react.js"
+      name: "react.js",
     },
     {
       icon: <SiNextdotjs />,
-      name: "next.js"
+      name: "next.js",
     },
 
     {
       icon: <SiTailwindcss />,
-      name: "tailwind.css"
+      name: "tailwind.css",
     },
     {
       icon: <FaNodeJs />,
-      name: "node.js"
+      name: "node.js",
     },
     {
       icon: <FaFigma />,
-      name: "figma"
-    }
-  ]
+      name: "figma",
+    },
+  ],
 };
 
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
@@ -140,7 +140,7 @@ import {
   Tooltip,
   TooltipContent,
   TooltipProvider,
-  TooltipTrigger
+  TooltipTrigger,
 } from "@/components/ui/tooltip";
 
 import { ScrollArea } from "@/components/ui/scroll-area";
@@ -152,7 +152,7 @@ const Resume = () => {
       initial={{ opacity: 0 }}
       animate={{
         opacity: 1,
-        transition: { delay: 2.4, duration: 0.4, ease: "easeIn" }
+        transition: { delay: 2.4, duration: 0.4, ease: "easeIn" },
       }}
       className="min-h-[80vh] flex items-center justify-center py-12 xl:py-0"
     >
@@ -171,7 +171,10 @@ const Resume = () => {
           {/* content */}
           <div className="min-h-[70vh] w-full">
             {/* experience */}
-            <TabsContent value="experience" className="w-full">
+            <TabsContent
+              value="experience"
+              className="w-full"
+            >
               <div className="flex flex-col gap-[30px] text-center xl:text-left">
                 <h3 className="text-4xl font-bold">{experience.title}</h3>
                 <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">
@@ -203,7 +206,10 @@ const Resume = () => {
             </TabsContent>
 
             {/* education */}
-            <TabsContent value="education" className="w-full">
+            <TabsContent
+              value="education"
+              className="w-full"
+            >
               <div className="flex flex-col gap-[30px] text-center xl:text-left">
                 <h3 className="text-4xl font-bold">{education.title}</h3>
                 <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">
@@ -235,7 +241,10 @@ const Resume = () => {
             </TabsContent>
 
             {/* skills */}
-            <TabsContent value="skills" className="w-full h-full">
+            <TabsContent
+              value="skills"
+              className="w-full h-full"
+            >
               <div className="flex flex-col gap-[30px]">
                 <div className="flex flex-col gap-[30px] text-center xl:text-left">
                   <h3 className="text-4xl font-bold">{skills.title}</h3>
