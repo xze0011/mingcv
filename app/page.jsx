@@ -14,19 +14,18 @@ const Home = () => {
         <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-24">
           {/* text */}
           <div className="text-center xl:text-left order-2 xl:order-none">
-            <span className="text-xl">Software Developer</span>
+            <span className="text-xl">Fullstack Software Engineer</span>
             <h1 className="h1 mb-6">
               Hello I am <br /> <span className="text-accent">Ming Zeng</span>
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80">
-              A proficient React, Next.js, Node.js and .Net developer,
-              experienced with SQL, MongoDB, CICD pipelines, Docker, Azure and
-              AWS Cloud.
+              A proficient React, Next.js, Node.js and .Net fullstack software
+              engineer, experienced with SQL, MongoDB, CICD pipelines, Docker,
+              AWS and Azure Cloud.
             </p>
             <p className="max-w-[500px] mb-9 text-white/80">
-              A lifelong learner, regularly sharing weekly book reviews
-              (https://medium.com/@xzeng0011) on personal growth, psychology and
-              life experiences.
+              A lifelong learner, regularly sharing weekly book reviews about
+              personal growth, psychology and life experiences.
             </p>
             <p className="max-w-[500px] mb-9 text-white/80">
               Most importantly, a person with love and courage, always ready to
