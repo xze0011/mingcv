@@ -13,13 +13,14 @@ const services = [
   {
     num: "02",
     title: "Backend",
-    description: "Node.js, .Net, Express.js, MongoDB, SQL, RESTful API etc.",
+    description:
+      "Node.js, .Net, Python, Express.js, MongoDB, SQL, RESTful API etc.",
     href: "",
   },
   {
     num: "03",
     title: "DevOps",
-    description: "Docker, CI/CD, Azure, AWS, Vercel, Netlify etc.",
+    description: "Docker, CI/CD, AWS, Azure, Vercel, Netlify etc.",
     href: "",
   },
   {

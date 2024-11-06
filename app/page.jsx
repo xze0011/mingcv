@@ -19,9 +19,9 @@ const Home = () => {
               Hello I am <br /> <span className="text-accent">Zephyr Zeng</span>
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80">
-              A proficient React, Next.js, Node.js and .Net fullstack software
-              engineer, experienced with SQL, MongoDB, CICD pipelines, Docker,
-              AWS and Azure Cloud.
+              A proficient React, Next.js, Node.js, .Net and Python Full-stack
+              SE(Saas focused), experienced with SQL, MongoDB, CICD pipelines,
+              Docker, AWS and Azure Cloud.
             </p>
             <p className="max-w-[500px] mb-9 text-white/80">
               A lifelong learner, regularly sharing weekly book reviews about
